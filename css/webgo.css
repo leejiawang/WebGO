@@ -11,6 +11,7 @@ WebGO CSS
 }
 
 #eyecus-search-options li {
+  cursor: pointer;
   color: #666;
   font-size: 15px;
   list-style: none;

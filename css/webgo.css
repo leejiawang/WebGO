@@ -45,11 +45,18 @@ WebGO CSS
 
 .eyecus-right {
   flex: 0 0 80px;
+  padding-right: 10px;
   margin-left: 8px;
 }
 
 #eyecus-search-menu {
   font-size: 20px;
+}
+
+input {
+  background: none;
+  outline: none;
+  border: none;
 }
 
 #eyecus-search-cont {
@@ -71,9 +78,10 @@ WebGO CSS
   }
 
 #eyecus-search-button{
+  text-align: center;
   cursor: pointer;
   font-size: 16px;
-  padding: 8px 20px;
+  padding: 8px 0;
   color: rgba(96, 99, 103);
   border-radius: 5px;
   background-color:  rgba(244, 244, 244);
@@ -102,17 +110,17 @@ table {
 table a{
   white-space: nowrap;
   line-height: 40px;
-  color: #008AD8 ;
+  color: #868E96;
   font-size: 14px;
   background: #fff;
-  border: 1px solid #008AD8;
+  border: 1px solid #868E96;
   border-radius: 8px;
   padding: 6px 8px 6px 8px;
   text-decoration: none;
   margin: 0 2px;
 }
 table a:hover {
-  background: #008AD8;
+  background: #868E96;
   color: #fff ;
 }
 

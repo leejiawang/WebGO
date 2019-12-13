@@ -56,7 +56,6 @@ WebGO CSS
 input {
   background: none;
   outline: none;
-  border: none;
 }
 
 #eyecus-search-cont {
@@ -65,15 +64,15 @@ input {
   font-size: 16px;
   padding: 8px 10px;
   border-radius: 5px;
-  border: 2px solid rgba(242, 242, 242);
+  border: 2px solid rgba(242, 242, 242) !important;
 }
 
   #eyecus-search-cont:hover {
-    border: 2px solid rgba(201, 201, 201);
+    border: 2px solid rgba(201, 201, 201) !important;
   }
 
   #eyecus-search-cont:focus {
-    border: 2px solid rgba(201, 201, 201);
+    border: 2px solid rgba(201, 201, 201) !important;
     box-shadow: 0 4px 3px #eee;
   }
 
@@ -110,17 +109,17 @@ table {
 table a{
   white-space: nowrap;
   line-height: 40px;
-  color: #868E96;
+  color: #5aa6f2;
   font-size: 14px;
   background: #fff;
-  border: 1px solid #868E96;
+  border: 1px solid #5aa6f2;
   border-radius: 8px;
   padding: 6px 8px 6px 8px;
   text-decoration: none;
   margin: 0 2px;
 }
 table a:hover {
-  background: #868E96;
+  background: #5aa6f2;
   color: #fff ;
 }
 
